@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+int i;
+
+printf("Enter the number: ");
+scanf("%d",&i);
+if(i>=90 && i<=100)
+    printf("Grade A. Epic bro Take W");
+else if (i>=80 && i<=89)
+    printf("Grade B. Good job Keep it up");
+
+if(i>=70 && i<=79)
+    printf("Grade C.Try Harder bro");
+
+ if(i>=60 && i<=69)
+    printf("Grade D.Take L");
+
+ if(  i<60)
+    printf("Grade F.Nigga WTF have u done");
+return 0;
+}
