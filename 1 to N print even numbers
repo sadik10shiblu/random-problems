@@ -18,3 +18,22 @@ if(count==0){
 
 return 0;
 }
+*****Way=2****
+ #include<stdio.h>
+int main(){
+int n,i=0;
+scanf("%d",&n);
+if(n=1){
+printf("-1")}
+for(i=1;i<=n;i++){
+    if(i%2==0){
+        printf("%d\n",i);
+       
+    }
+
+}
+
+//-1 will only print only in 1 case when n=-1.
+
+
+return 0;
