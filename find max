@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+
+int n,i=0,max=0,val;
+scanf("%d",&n);
+for(i=0;i<n;i++){
+    scanf("%d",&val);
+    if(val>max){
+        max=val;
+    }
+}
+printf("%d",max);
+return 0;
+}
